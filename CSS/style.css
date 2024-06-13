@@ -1,0 +1,171 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: #00796b; /* Teal background */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li.active a {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+}
+
+section h1, section h2, section h3 {
+    color: #00796b; /* Teal color for headings */
+}
+
+section p {
+    color: #555; /* Darker gray for paragraph text */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ff6347; /* Tomato background */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #e5533d; /* Darker tomato on hover */
+}
+
+/* Content Section Styles */
+.content {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content sections */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.testimonial {
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.newsletter form div {
+    margin-bottom: 15px;
+}
+
+.newsletter form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.newsletter form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter form button {
+    padding: 10px 15px;
+    background-color: #00796b; /* Teal background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #005f56; /* Darker teal on hover */
+}
+
+/* Featured Articles Section Styles */
+.featured-articles {
+    margin: 20px 0;
+}
+
+.featured-articles article {
+    margin-bottom: 10px;
+}
+
+.featured-articles article h4 a {
+    color: #00796b; /* Teal color for article links */
+    text-decoration: none;
+}
+
+.featured-articles article h4 a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+}
